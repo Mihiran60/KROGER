@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-bar {
+        max-width: 90%; /* Make the search bar take up more space on smaller screens */
+      }
+
+      .search-bar input {
+        padding: 5px 8px; /* Adjust padding for smaller screens */
+      }
+
+      .search-bar .bi-search {
+        font-size: 16px; /* Slightly smaller icon for mobile */
+      }
+
+      .link-list-container  {
+        top: -20px;
+       position: relative;
+        
+        
+      }
+
+      .link-list-container .link-item {
+        padding: 5px 20px;
+        font-size: 0.9rem;
+        
+        
+      }
+      
+     
+  
+    
+}
+
+@media (max-width: 200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .right-section {
+        margin-top: 10px;
+    }
+
+    .search-bar {
+        max-width: 80%; /* Further increase width for very small screens */
+      }
+
+      .search-bar input {
+        padding: 5px 6px; /* Even smaller padding for mobile devices */
+      }
+
+      .search-bar .bi-search {
+        font-size: 14px; /* Reduce icon size even more for very small screens */
+      }
+
+
+      .link-list-container  {
+        top: -20px;
+       
+        
+        
+      }
+      .link-list-container .link-item {
+        padding: 10px 10px;
+        font-size: 0.1rem;
+        
+        
+      }
+      
+    
+}
